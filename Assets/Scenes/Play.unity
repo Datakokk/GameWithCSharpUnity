@@ -1513,7 +1513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textScore1: {fileID: 1588075495}
   textScore2: {fileID: 819604979}
-  goalToWin: 3
+  goalToWin: 2
 --- !u!1 &1314027814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,6 +1529,7 @@ GameObject:
   - component: {fileID: 1314027819}
   - component: {fileID: 1314027821}
   - component: {fileID: 1314027822}
+  - component: {fileID: 1314027823}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1702,6 +1703,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveBall: {fileID: 1314027821}
   controScore: {fileID: 1283177663}
+--- !u!114 &1314027823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314027814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8f3b2e7b8c70949b165ea98d0990df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  racketSound: {fileID: 0}
+  wellSound: {fileID: 0}
 --- !u!1 &1409139141
 GameObject:
   m_ObjectHideFlags: 0
